@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".checkboxActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n Select Your Favourite \n Players \n"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_gravity="center_horizontal"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_mahendrasinghdhoni"
+        android:text="Mahendra Singh Dhoni"
+        android:textSize="18dp"
+        android:layout_margin="5dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_sachintendulkar"
+        android:text="Sachin Tendulkar"
+        android:textSize="18dp"
+        android:layout_margin="5dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_virendersehwag"
+        android:text="Virender Sehwag"
+        android:textSize="18dp"
+        android:layout_margin="5dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_rahuldravid"
+        android:text="Rahul Dravid"
+        android:textSize="18dp"
+        android:layout_margin="5dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_viratkohli"
+        android:text="Virat Kohli"
+        android:textSize="18dp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Result"
+        android:layout_margin="30dp"
+        android:background="#03A9F4"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/show_result"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:paddingLeft="20dp"
+        android:id="@+id/result"/>
+
+</LinearLayout>
